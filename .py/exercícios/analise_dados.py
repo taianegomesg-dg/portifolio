@@ -31,7 +31,15 @@ print (f"Quantidade que bateu a meta: {len(acima_da_meta)}")
 # Verificação de desempenho global
 print("-" * 35)
 if media_vendas >= 1000:
-    print("STATUS FINAL: Meta Batida! O dia foi lucrativo. 🚀")
+    print("STATUS FINAL: Meta Batida! O dia foi lucrativo.")
 else:
-    print("STATUS FINAL: Alerta! Desempenho abaixo do esperado. 📉")
+    print("STATUS FINAL: Alerta! Desempenho abaixo do esperado.")
 
+# Criando um arquivo de relatório final
+with open('.py/exercícios/relatorio_final.txt', 'w', encoding='utf-8') as relatorio:
+    relatorio.write("--- RESULTADO DA ANALISE ---\n")
+    relatorio.write(f"Total: R$ {total_vendas}\n")
+    relatorio.write(f"Media: R$ {media_vendas}\n")
+    relatorio.write(f"Status: {'Lucrativo' if media_vendas >= 1000 else 'Alerta'}")
+
+print("Relatorio gerado com sucesso!")

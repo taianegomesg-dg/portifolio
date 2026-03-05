@@ -1,0 +1,4 @@
+--- RESULTADO DA ANALISE ---
+Total: R$ 9480.0
+Media: R$ 1580.0
+Status: Lucrativo
