@@ -1,0 +1,9 @@
+# Ignorar todos os arquivos executáveis do Windows
+*.exe
+
+# Ignorar pastas de configuração do VS Code (opcional)
+.vscode/
+
+# Ignorar arquivos temporários de compilação
+*.o
+*.obj
