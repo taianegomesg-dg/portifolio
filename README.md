@@ -1,20 +1,22 @@
-# 🚀 Meu Portfólio de Algoritmos (C & C++)
+# 📊 Analisador de Vendas Automatizado (Python)
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+Este projeto simula um sistema real de análise de dados onde o script processa informações de fontes externas, realiza cálculos estatísticos e gera um relatório final de desempenho.
 
-Repositório dedicado ao estudo de estrutura de dados e lógica de programação. Aqui organizo meus exercícios práticos e projetos de evolução contínua.
+## 🚀 Funcionalidades
+* **Ingestão de Dados**: Leitura dinâmica de arquivos `.txt` (vendas.txt).
+* **Processamento Matemático**: Cálculo automático de Soma, Média, Máximos e Mínimos.
+* **Lógica de Metas**: Filtragem inteligente de vendedores que atingiram metas específicas usando *List Comprehension*.
+* **Exportação de Relatórios**: Geração automática de um arquivo `relatorio_final.txt` com os resultados da análise.
 
-## 📂 Organização do Projeto
-* **`/c`**: Implementações focadas em sintaxe pura e gerenciamento de memória.
-* **`/cpp`**: Exercícios de Programação Orientada a Objetos e bibliotecas padrão (STL).
-* **`/bin`**: Pasta automatizada para binários (não versionada para manter o repo leve).
+## 🛠️ Habilidades Técnicas Aplicadas
+* **Manipulação de Arquivos (I/O)**: Uso de `with open()` para leitura e escrita segura de dados.
+* **Tratamento de Codificação**: Implementação de `UTF-8` para suporte a caracteres especiais.
+* **Debugging**: Resolução de erros de sintaxe, caminhos de diretório e encoding de terminal.
+* **Versionamento**: Fluxo completo de trabalho com Git (add, commit, push).
 
-## 🛠️ Tecnologias e Ferramentas
-* **Compilador:** GCC/G++ através do MinGW.
-* **Ambiente:** VS Code com automação de Tasks para compilação rápida (`Ctrl+Shift+B`).
-
----
-*Estudante em evolução constante. Sinta-se à vontade para explorar os códigos!*
+## 📁 Estrutura do Projeto
+.py/
+└── exercícios/
+    ├── analise_dados.py    # Script principal
+    ├── vendas.txt          # Fonte de dados (Input)
+    └── relatorio_final.txt # Relatório gerado (Output)
