@@ -2,17 +2,21 @@
 
 Este projeto simula um sistema real de análise de dados onde o script processa informações de fontes externas, realiza cálculos estatísticos e gera um relatório final de desempenho.
 
-## 🚀 Funcionalidades
-* **Ingestão de Dados**: Leitura dinâmica de arquivos `.txt` (vendas.txt).
-* **Processamento Matemático**: Cálculo automático de Soma, Média, Máximos e Mínimos.
-* **Lógica de Metas**: Filtragem inteligente de vendedores que atingiram metas específicas usando *List Comprehension*.
-* **Exportação de Relatórios**: Geração automática de um arquivo `relatorio_final.txt` com os resultados da análise.
+## ✅ O que eu aprendi neste projeto:
+* **Leitura de Arquivos**: Como abrir e ler dados brutos de um arquivo `.txt`.
+* **Cálculos com Python**: Aplicação de funções para média, soma e filtros de metas.
+* **Exportação**: Automação para criar um novo arquivo de texto com os resultados.
+* **Solução de Problemas**: Resolução de erros reais de acentuação (UTF-8) e caminhos de pastas.
 
-## 🛠️ Habilidades Técnicas Aplicadas
-* **Manipulação de Arquivos (I/O)**: Uso de `with open()` para leitura e escrita segura de dados.
-* **Tratamento de Codificação**: Implementação de `UTF-8` para suporte a caracteres especiais.
-* **Debugging**: Resolução de erros de sintaxe, caminhos de diretório e encoding de terminal.
-* **Versionamento**: Fluxo completo de trabalho com Git (add, commit, push).
+## 🚀 Funcionalidades Técnicas
+* **Ingestão de Dados**: Leitura dinâmica de arquivos usando `with open()`.
+* **Processamento**: Uso de *List Comprehension* para filtragem inteligente de metas.
+* **Relatório Automático**: Geração do arquivo `relatorio_final.txt`.
+
+## 🛠️ Tecnologias e Ferramentas
+* **Linguagem**: Python 3.
+* **IDE**: VS Code.
+* **Versionamento**: Git e GitHub.
 
 ## 📁 Estrutura do Projeto
 .py/
