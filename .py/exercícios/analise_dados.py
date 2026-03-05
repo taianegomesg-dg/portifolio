@@ -1,7 +1,11 @@
-# Lista de vendas (simulando uma coluna de uma planilha)
-vendas = [1200, 300, 400, 550, 2030, 350, 890, 456]
+# 1. Lendo os dados do arquivo externo
+vendas = []
+with open('.py/exercícios/vendas.txt', 'r') as arquivo:
+    for linha in arquivo:
+        # Transformamos o texto da linha em número decimal
+        vendas.append(float(linha.strip()))
 
-print ("--- RELATÓRIO DE ANÁLISE DE DADOS ---")
+print("--- RELATÓRIO DE ANÁLISE DE DADOS (ARQUIVO) ---")
 
 # 1. Cálculos básicos
 total_vendas = sum(vendas)
@@ -22,7 +26,7 @@ print (f"Média de vendas: R$ {media_vendas}")
 print (f"Melhor venda: R$ {melhor_venda}")
 print (f"Pior venda: R$ {pior_vendas}")
 print (f"Meta: R$ {meta}")
-print (f"Quantidade que bateu a meta: R$ {len(acima_da_meta)}")
+print (f"Quantidade que bateu a meta: {len(acima_da_meta)}")
 
 # Verificação de desempenho global
 print("-" * 35)
