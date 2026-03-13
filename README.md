@@ -18,11 +18,15 @@ Este projeto simula um sistema real de análise de dados onde o script processa 
 * **IDE**: VS Code.
 * **Versionamento**: Git e GitHub.
 
-### 📂 Estrutura do Projeto
+### 🌳 Estrutura de Árvore do Projeto
 
 ```text
 .
-├── exercicios/           # Pasta com exercícios de lógica e sintaxe
-├── analise_dados.py      # Script principal (Processamento e Cálculos)
-├── vendas.txt            # Fonte de dados bruta (Arquivo de Entrada)
-└── relatorio_final.txt   # Resultado da análise (Arquivo de Saída)
+├── 📂 python/             # Automação e Análise de Dados
+│   ├── analise_dados.py
+│   └── vendas.txt
+├── 📂 c/                  # Programação de Baixo Nível
+│   └── programa.c
+└── 📂 cpp/                # Lógica e Algoritmos (C++)
+    ├── fibonacci.cpp
+    └── soma.cpp
